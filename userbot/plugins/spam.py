@@ -38,7 +38,7 @@ async def spammer(e):
                 await reply_to_id.reply(spam_message)
             else:
                 await e.client.send_message(e.chat_id, spam_message)
-            await asyncio.sleep(0.1)
+            await asyncio.sleep(0.0)
         if BOTLOG:
             if e.is_private:
                 await e.client.send_message(
@@ -81,7 +81,7 @@ async def spammer(e):
                     )
                 except:
                     pass
-                await asyncio.sleep(0.5)
+                await asyncio.sleep(0.0)
             if BOTLOG:
                 if e.is_private:
                     await e.client.send_message(
@@ -137,7 +137,7 @@ async def spammer(e):
                 await reply_to_id.reply(spam_message)
             else:
                 await e.client.send_message(e.chat_id, spam_message)
-            await asyncio.sleep(0.5)
+            await asyncio.sleep(0.0)
         if BOTLOG:
             if e.is_private:
                 await e.client.send_message(
@@ -184,7 +184,7 @@ async def spammer(e):
                 await reply_to_id.reply(spam_message)
             else:
                 await e.client.send_message(e.chat_id, spam_message)
-            await asyncio.sleep(0.5)
+            await asyncio.sleep(0.0)
         if BOTLOG:
             if e.is_private:
                 await e.client.send_message(
@@ -223,7 +223,7 @@ async def spammer(e):
                     )
                 except:
                     pass
-                await asyncio.sleep(1)
+                await asyncio.sleep(0.0)
             if BOTLOG:
                 if e.is_private:
                     await e.client.send_message(
@@ -279,7 +279,7 @@ async def spammer(e):
                 await reply_to_id.reply(spam_message)
             else:
                 await e.client.send_message(e.chat_id, spam_message)
-            await asyncio.sleep(0.5)
+            await asyncio.sleep(0.0)
         if BOTLOG:
             if e.is_private:
                 await e.client.send_message(
